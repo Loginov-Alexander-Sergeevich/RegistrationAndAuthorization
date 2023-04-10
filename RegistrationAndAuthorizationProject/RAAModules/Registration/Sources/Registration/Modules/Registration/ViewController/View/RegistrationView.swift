@@ -14,7 +14,7 @@ final class RegistrationView: UIView {
     
     let emailTextField: RATextField = {
         let textField = RATextField()
-        textField.configureTextField("Email1")
+        textField.configureTextField("Email")
         return textField
     }()
     
