@@ -1,0 +1,1 @@
+protocol RegistrationRouterInput: AnyObject {}
