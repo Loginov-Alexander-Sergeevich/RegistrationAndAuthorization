@@ -3,7 +3,7 @@ import UIKit
 
 extension UIColor {
     
-    convenience init(hexString: String) {
+    public convenience init(hexString: String) {
         
         let hex = hexString.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
         
@@ -27,7 +27,7 @@ extension UIColor {
         self.init(red: CGFloat(r) / 255, green: CGFloat(g) / 255, blue: CGFloat(b) / 255, alpha: CGFloat(a) / 255)
     }
     
-    convenience init(hexString: String, alpha: CGFloat = 1.0) {
+    public convenience init(hexString: String, alpha: CGFloat = 1.0) {
         let hex = hexString.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
         var int = UInt64()
         Scanner(string: hex).scanHexInt64(&int)
@@ -45,4 +45,3 @@ extension UIColor {
         self.init(red: CGFloat(r) / 255, green: CGFloat(g) / 255, blue: CGFloat(b) / 255, alpha: alpha)
     }
 }
-

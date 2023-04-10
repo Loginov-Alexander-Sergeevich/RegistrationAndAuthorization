@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E1F844629E4992E004C703A /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1F844529E4992D004C703A /* Extension+UIColor.swift */; };
 		4E62001529E3C6A800CE1B53 /* AuthApp in Frameworks */ = {isa = PBXBuildFile; productRef = 4E62001429E3C6A800CE1B53 /* AuthApp */; };
 		4E62001729E3C6AC00CE1B53 /* UIComponents in Frameworks */ = {isa = PBXBuildFile; productRef = 4E62001629E3C6AC00CE1B53 /* UIComponents */; };
 		4E62001929E3C6C700CE1B53 /* UIComponents in Sources */ = {isa = PBXBuildFile; fileRef = 4E62000E29E3C5B400CE1B53 /* UIComponents */; };
@@ -49,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E1F844529E4992D004C703A /* Extension+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Extension+UIColor.swift"; path = "Frameworks/UIComponents/Sources/UIComponents/Extensions/Extension+UIColor.swift"; sourceTree = "<group>"; };
 		4E62000D29E3C39900CE1B53 /* AuthApp */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = AuthApp; path = Frameworks/AuthApp; sourceTree = SOURCE_ROOT; };
 		4E62000E29E3C5B400CE1B53 /* UIComponents */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = UIComponents; path = Frameworks/UIComponents; sourceTree = SOURCE_ROOT; };
 		4E62001B29E3C73800CE1B53 /* Registration */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Registration; path = RegistrationAndAuthorizationProject/RAAModules/Registration; sourceTree = SOURCE_ROOT; };
@@ -115,6 +117,7 @@
 		4ED26D1129E3B9E9009CB375 = {
 			isa = PBXGroup;
 			children = (
+				4E1F844529E4992D004C703A /* Extension+UIColor.swift */,
 				4ED26D1C29E3B9E9009CB375 /* RegistrationAndAuthorizationProject */,
 				4ED26D3329E3B9EB009CB375 /* RegistrationAndAuthorizationProjectTests */,
 				4ED26D3D29E3B9EB009CB375 /* RegistrationAndAuthorizationProjectUITests */,
@@ -314,6 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E1F844629E4992E004C703A /* Extension+UIColor.swift in Sources */,
 				4E62001E29E3C7D400CE1B53 /* Registration in Sources */,
 				4E62001D29E3C7D000CE1B53 /* Authorization in Sources */,
 				4E62001A29E3C6CB00CE1B53 /* AuthApp in Sources */,

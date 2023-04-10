@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "Registration",
+    platforms: [.iOS(.v14)],
     products: [
         .library(
             name: "Registration",
@@ -12,11 +13,12 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/SnapKit/SnapKit.git", from: "5.6.0"),
+        .package(path: "../UIComponents")
     ],
     targets: [
         .target(
             name: "Registration",
-            dependencies: ["SnapKit"]),
+            dependencies: ["SnapKit", "UIComponents"]),
         .testTarget(
             name: "RegistrationTests",
             dependencies: ["Registration"]),
